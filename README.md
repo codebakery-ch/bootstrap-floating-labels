@@ -10,6 +10,9 @@ and @jverdi's [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeled
 
 Bootstrap implementation by: [fauxparse](https://github.com/fauxparse/bootstrap-floating-labels)
 
+[DEMO](http://jsfiddle.net/5mj4s4d7/3/)
+
+
 Requirements
 ------------
 * AngularJS (tested with 1.2.1)
