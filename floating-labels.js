@@ -1,15 +1,20 @@
-var app = angular.module('app', []).
 .directive('inlineLabel',function () {
         return {
             restrict: 'EA',
             replace: true,
             transclude: false,
             scope: {
-                label: '@placeholder'
+                label: '@placeholder',
+                pos: '@pos'
             },
             link: function (scope, element, attrs) {
+                //default
+                if(!attrs.pos){
+                    scope.pos = 'top'
+                }
+                
                 $(element).parents('.form-group').addClass('floating-label-form-group');
-                $(element).before('<label>' + scope.label + '</label>');
+                $(element).before('<label class="'+scope.pos+'">' + scope.label + '</label>');
 
                 $('body')
                     .on("input propertychange", ".floating-label-form-group", function (e) {
@@ -26,4 +31,4 @@ var app = angular.module('app', []).
 
             }
         }
-    });
+    })
