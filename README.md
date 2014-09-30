@@ -19,11 +19,12 @@ Requirements
 
 Usage
 -----
-Just include `floating-labels.css` and `floating-labels.js`, then add the
-`inline-label` attribute to any text-input you want to attach
-the behaviour to.
+* Add the directive in `floating-labels.js` to your angular Project.
+* Place the `inline-label` attribute on any input you want the floating label
 
-Should work anywhere Bootstrap works.
+Options
+-----
+You can adjust the placement with the `pos` attribute (pos="top"). Available are top (default), bottom, left, right.
 
 Todo
 -----
