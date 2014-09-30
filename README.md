@@ -23,3 +23,8 @@ Just include `floating-labels.css` and `floating-labels.js`, then add the
 the behaviour to.
 
 Should work anywhere Bootstrap works.
+
+Todo
+-----
+- Remove jquery Selectors
+- positioning attribute
