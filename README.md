@@ -12,6 +12,7 @@ Bootstrap implementation by: [fauxparse](https://github.com/fauxparse/bootstrap-
 
 Requirements
 ------------
+* AngularJS (tested with 1.2.1)
 * Bootstrap 3.0
 * jQuery 1.10.x or later
 * Taste
@@ -26,5 +27,5 @@ Should work anywhere Bootstrap works.
 
 Todo
 -----
-- Remove jquery Selectors
-- positioning attribute
+* Remove jquery Selectors
+* positioning attribute
