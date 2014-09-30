@@ -1,28 +1,41 @@
+
 .floating-label-form-group input,
 .floating-label-form-group textarea {
-  position: relative;
-}
-  
-.floating-label-form-group label {
-  display: none;
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  z-index: 0;
-  font-size: 0.85em;
-  line-height: 1.764705882em;
-  vertical-align: middle;
-  vertical-align: baseline;
-  margin: 0;
-  -webkit-transition: top 0.5s ease, opacity 0.5s ease;
-     -moz-transition: top 0.5s ease, opacity 0.5s ease;
-      -ms-transition: top 0.5s ease, opacity 0.5s ease;
-          transition: top 0.5s ease, opacity 0.5s ease;
+    position: relative;
 }
 
+.floating-label-form-group label {
+    display: block;
+    position: absolute;
+    top: 2em;
+    opacity: 0;
+    z-index: 0;
+    font-size: 0.85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    margin: 0;
+    -webkit-transition: top 0.5s ease, opacity 0.5s ease;
+    -moz-transition: top 0.5s ease, opacity 0.5s ease;
+    -ms-transition: top 0.5s ease, opacity 0.5s ease;
+    transition: top 0.5s ease, opacity 0.5s ease;
+}
 
 .floating-label-form-group-with-value label {
-  opacity: 1;
-  position: absolute;
-  top: -25px;
+    opacity: 1;
+    position: absolute;
+}
+.floating-label-form-group-with-value label.left {
+    top: 0;
+    left: -25px;
+}
+.floating-label-form-group-with-value label.right {
+    top: 0;
+    right: -25px;
+}
+.floating-label-form-group-with-value label.top {
+    top:  -25px;
+}
+.floating-label-form-group-with-value label.bottom {
+    bottom:  -25px;
 }
