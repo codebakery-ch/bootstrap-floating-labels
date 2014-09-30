@@ -1,7 +1,7 @@
-Bootstrap floating labels
+AngularJS / Bootstrap floating labels
 =========================
 
-Changed this little snipped to be an angularJS Directive.
+Changed this little snippet to be an angularJS Directive.
 
 A new placeholder UI design for Bootstrap forms.
 Inspired by Mark D. Smith's
