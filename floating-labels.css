@@ -7,22 +7,13 @@
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
-  background: none;
-  border: none;
-  border-radius: 0;
-  padding-left: 0;
-  padding-right: 0;
-  box-shadow: none !important;
   position: relative;
-  z-index: 1;
-  font-size: 1.5em;
-  resize: none;
 }
   
 .floating-label-form-group label {
-  display: block;
-  position: relative;
-  top: 2em;
+  display: none;
+  position: absolute;
+  top: 0;
   opacity: 0;
   z-index: 0;
   font-size: 0.85em;
@@ -36,20 +27,9 @@
           transition: top 0.5s ease, opacity 0.5s ease;
 }
 
-.floating-label-form-group:not(:first-child) {
-  border-left: 1px solid #ccc;
-  padding-left: 14px;
-}
 
 .floating-label-form-group-with-value label {
-  top: 0;
   opacity: 1;
-}
-
-.floating-label-form-group-with-focus label {
-  color: blue;
-}
-
-form .row:first-child .floating-label-form-group {
-  border-top: 1px solid #ccc;
+  position: absolute;
+  top: -25px;
 }
