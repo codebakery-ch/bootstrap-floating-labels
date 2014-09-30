@@ -28,4 +28,3 @@ Should work anywhere Bootstrap works.
 Todo
 -----
 * Remove jquery Selectors
-* positioning attribute
