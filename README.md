@@ -1,10 +1,14 @@
 Bootstrap floating labels
 =========================
 
+Changed this little snipped to be an angularJS Directive.
+
 A new placeholder UI design for Bootstrap forms.
 Inspired by Mark D. Smith's
 [Dribbble post](http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users)
 and @jverdi's [JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField).
+
+Bootstrap implementation by: [fauxparse](https://github.com/fauxparse/bootstrap-floating-labels)
 
 Requirements
 ------------
@@ -15,7 +19,7 @@ Requirements
 Usage
 -----
 Just include `floating-labels.css` and `floating-labels.js`, then add the
-`floating-label-control-group` class to any `control-group`s you want to attach
+`inline-label` attribute to any text-input you want to attach
 the behaviour to.
 
 Should work anywhere Bootstrap works.
